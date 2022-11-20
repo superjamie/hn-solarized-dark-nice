@@ -1,0 +1,77 @@
+/* ==UserStyle==
+@name           Hacker News Solarized Dark
+@namespace      https://github.com/UserStyles/hacker-news-solarized-dark
+@version        1.0.0
+@description    A solarized dark theme user-style for http://news.ycombinator.com
+@author         Jamie Bainbridge <jamie.bainbridge@gmail.com>
+==/UserStyle== */
+
+@-moz-document domain("news.ycombinator.com") {
+
+  *
+  {
+    color: #93A1A1 !important;
+    background-color: #002b36 !important;
+    font-size: 1.075em;
+  }
+
+  body > center > table > tbody > tr:first-child *
+  {
+    background-color: #073642 !important;
+  }
+
+  body > center > table > tbody > tr:first-child * a:visited
+  {
+    color: #2aa198 !important;
+  }
+
+  body > center > table > tbody > tr:first-child * a:hover
+  {
+    background: #002b36 !important;
+  }
+
+  code, pre, input, textarea
+  {
+    background: #073642 !important;
+  }
+
+  a
+  {
+    color: #2aa198 !important;
+  }
+
+  tr.spacer
+  {
+        height: 0.67em !important;
+  }
+
+  .score
+  {
+    color: #6c71c4 !important;   
+    font-weight: bold !important;
+  }
+
+  .subline, .subtext a
+  {
+    color: #586e75 !important;
+  }
+
+  a:visited, a:visited span
+  {
+    color: #586e75 !important;
+  }
+  
+  a:hover, a:hover span
+  {
+    background: #073642 !important;
+  }
+  
+  input:focus
+  {
+      outline: none !important;
+  }
+  .default p
+  {
+    font-size: 100% !important;
+  }
+}
