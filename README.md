@@ -1,4 +1,4 @@
-# Hacker News Solarized Dark Nice
+# Hacker News Solarized Dark Nice theme for Stylus
 
 A [Hacker News](https://news.ycombinator.com/) userstyle for [Stylus](https://addons.mozilla.org/en-US/firefox/addon/styl-us/).
 
