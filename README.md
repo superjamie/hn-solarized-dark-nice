@@ -4,7 +4,7 @@ A [Hacker News](https://news.ycombinator.com/) userstyle for [Stylus](https://ad
 
 ## Install
 
-[Click here](https://raw.githubusercontent.com/superjamie/hn-solarized-dark-nice/main/userstyle.css) to preview in Stylus and install.
+Copy the [userstyle.css](https://raw.githubusercontent.com/superjamie/hn-solarized-dark-nice/main/userstyle.css) to a new style.
 
 ## License
 
