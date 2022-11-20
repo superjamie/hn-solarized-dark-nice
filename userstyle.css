@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Hacker News Solarized Dark Nice
 @namespace    github.com/superjamie/hn-solarized-dark-nice
-@version      1.2.0
+@version      1.2.1
 @description  A solarized dark theme user-style for http://news.ycombinator.com
 @author       Jamie Bainbridge <jamie.bainbridge@gmail.com>
 @homepageURL  https://github.com/superjamie/hn-solarized-dark-nice
@@ -53,19 +53,23 @@
   a:visited, a:visited span {
     color: #586e75 !important;
   }
-  
+
   a:hover, a:hover span {
     background: #073642 !important;
   }
-  
+
   input:focus {
       outline: none !important;
   }
-  
+
   .default p {
     font-size: 100% !important;
   }
-  
+
+  .comment {
+    font-size: 1.0em !important;
+  }
+
   .votearrow {
     margin-top:    2px !important;
     margin-left:   5px !important;
