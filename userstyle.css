@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Hacker News Solarized Dark Nice
 @namespace    github.com/superjamie/hn-solarized-dark-nice
-@version      1.1.1
+@version      1.2.0
 @description  A solarized dark theme user-style for http://news.ycombinator.com
 @author       Jamie Bainbridge <jamie.bainbridge@gmail.com>
 @homepageURL  https://github.com/superjamie/hn-solarized-dark-nice
@@ -11,71 +11,72 @@
 ==/UserStyle== */
 
 @-moz-document domain("news.ycombinator.com") {
-
-  *
-  {
+  * {
     color: #93A1A1 !important;
     background-color: #002b36 !important;
     font-size: 1.075em;
   }
 
-  body > center > table > tbody > tr:first-child *
-  {
+  body > center > table > tbody > tr:first-child * {
     background-color: #073642 !important;
   }
 
-  body > center > table > tbody > tr:first-child * a:visited
-  {
+  body > center > table > tbody > tr:first-child * a:visited {
     color: #2aa198 !important;
   }
 
-  body > center > table > tbody > tr:first-child * a:hover
-  {
+  body > center > table > tbody > tr:first-child * a:hover {
     background: #002b36 !important;
   }
 
-  code, pre, input, textarea
-  {
+  code, pre, input, textarea {
     background: #073642 !important;
   }
 
-  a
-  {
+  a {
     color: #2aa198 !important;
   }
 
-  tr.spacer
-  {
+  tr.spacer {
         height: 0.67em !important;
   }
 
-  .score
-  {
+  .score {
     color: #6c71c4 !important;   
     font-weight: bold !important;
   }
 
-  .subline, .subtext a
-  {
+  .subline, .subtext a {
     color: #586e75 !important;
   }
 
-  a:visited, a:visited span
-  {
+  a:visited, a:visited span {
     color: #586e75 !important;
   }
   
-  a:hover, a:hover span
-  {
+  a:hover, a:hover span {
     background: #073642 !important;
   }
   
-  input:focus
-  {
+  input:focus {
       outline: none !important;
   }
-  .default p
-  {
+  
+  .default p {
     font-size: 100% !important;
+  }
+  
+  .votearrow {
+    margin-top:    2px !important;
+    margin-left:   5px !important;
+    margin-right:  5px !important;
+    margin-bottom: 6px !important;
+    width:  0px;
+    height: 0px;
+    background: none !important;
+    /* CSS triangle */
+    border-left: 5px solid transparent !important;
+    border-right: 5px solid transparent !important;
+    border-bottom: 10px solid #cb4b16 !important;
   }
 }
